@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
   align-items: center;
-  padding: 40px 0 30px;
+  padding: 40px 0 30px 0;
 `;
 
 export const Top = styled.View `
@@ -14,6 +14,20 @@ export const Top = styled.View `
 export const Logo = styled.Image ``;
 
 export const Title = styled.Text `
+  font-size: 18px;
+  color: #FFF;
+  font-weight: bold;
+  margin-left: 8px;
+`;
+
+export const Informations = styled.Text `
+  font-size: 18px;
+  color: #FFF;
+  font-weight: bold;
+  margin-left: 8px;
+`;
+
+export const SubInformations = styled.Text `
   font-size: 18px;
   color: #FFF;
   font-weight: bold;
